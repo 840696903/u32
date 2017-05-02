@@ -9,7 +9,9 @@ class User_class
     public  $name;
     public static $className;
     
-    
+    function say(){
+        echo "Y(^o^)Y";
+    }
     
     function showMyself() {
         echo $this->name."是".$this::$className."班的<br/>";
